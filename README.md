@@ -4,13 +4,16 @@ The original concept was test with hackrf transmitter where after the new IQ tra
 The Gnuradio tansponder will run in a Ornage Pi with an <a href="https://github.com/antonjan/IQ_Modulator>IQ_Modulator" >transmitter</a> board plug into Orange Pi.<br>
 The Receiver is an rtl dongle with a front end Saw filter on the same IQ modulator board<br>
 The Battery and Solar Voltage and TX power also get read from this IQ modulator board.<br>
+# Project Status.
+The software here is not yet compleet but do work independely.<br>
+Transponer work and telemetry work independely and need to be combiend in IQ signal.<br>
 # Software
 1) Gnuradio transponder.
 2) Telemetry CW and PSK1200 (1200 2200khz).<br>
 Telemetry data Calsign:SolarV,BatteryV,TXPowerV,TransponderMode,UseCount,ComandEcho,Time.<br>
 The telemetry was tested on <a href="https://github.com/antonjan/Bacar_Raspberry_tx"> Bacar Balloon</a> 
 # Hardware
-1) IQ Modulator board for TX (500mW) (The IQ modulator board replace the hackrf board.)<br>
+1) IQ Modulator board for TX (500mW) (The IQ modulator board replace the hackrf board.) Board is not yet compleet (80%)<br>
 2) RTL SDR Dongle for RX<br>
 3) Orange PI zero<br>
 # Todo
